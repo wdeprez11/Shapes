@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<project name="Shapes" default="build-jar" basedir=".">
+
+    <property name="src.dir" location="src"/>
+    <property name="build.dir" location="out"/>
+    <property name="package.name" location="shapes"/>
+
+    <target name="info">
+        <echo>Shapes v1.0</echo>
+    </target>
+
+    <target name="build-jar" depends="compile">
+        <jar destfile="${ant.project.name}.jar"
+            basedir="${build.dir}">
+
+            <manifest>
+                <attribute name="Main-Class" value="shapes.Driver"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="make-dir">
+        <mkdir dir="${build.dir}"/>
+    </target>
+
+    <target name="compile" depends="clean,make-dir">
+        <javac srcdir="${src.dir}" destdir="${build.dir}" includeantruntime="false"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+        <delete file="${ant.project.name}.jar"/>
+    </target>
+
+</project>
