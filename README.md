@@ -21,13 +21,13 @@ School final project that I wish was harder
 
 Build *Shapes*, with the following
 
-<pre>
+<pre lang="sh">
 $ ant
 </pre>
 
 And then, run the jar
 
-<pre>
+<pre lang="sh">
 $ java -jar Shapes.jar
 </pre>
 
