@@ -1,3 +1,4 @@
+package shapes;
 public class Rectangle implements Shape {
     private double side1, side2;
     private double area;

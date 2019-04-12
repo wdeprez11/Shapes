@@ -1,3 +1,4 @@
+package shapes;
 public class Cube extends Rectangle implements Shape3D {
     private double height;
     public Cube(double length, double width, double height) {
