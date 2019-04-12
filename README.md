@@ -2,6 +2,13 @@
 
 School final project that I wish was harder
 
+## TODO
+
+* Get a better idea
+* Create a UML graphic
+* Implement doxygen
+* and More
+
 ## Requirements
 
 * Driver, Main, Runner, etc...
