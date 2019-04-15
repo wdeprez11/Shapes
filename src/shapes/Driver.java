@@ -67,6 +67,9 @@ class Driver {
          *  TODO:
          *  Implement buffered reader for shell input
          *
+         *  TODO:
+         *  Dynamic Bitset or vector<bool> for bits?
+         *
          */
     }
 
