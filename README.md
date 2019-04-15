@@ -8,6 +8,7 @@ School final project that I wish was harder
 * Create a UML graphic
 * Implement doxygen
 * Buffered Reader
+* ...
 * and More
 
 ## Requirements
